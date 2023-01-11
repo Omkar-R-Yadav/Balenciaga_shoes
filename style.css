@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* align-content: center; */
+  /* margin: 100px; */
+}
+body {
+  width: 850px;
+  margin: 200px auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 10px solid black;
+  border-top: 0;
+  border-bottom: 0;
+  position: relative;
+  /* align-content: center; */
+}
+article {
+  /* width: 500px; */
+  background-color: rgba(255, 255, 255, 0.651);
+  margin-bottom: 5px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 10px;
+  position: relative;
+}
+.head {
+  font-weight: bolder;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.img-s {
+  width: 380px;
+  height: 200px;
+  padding: 10px;
+  position: relative;
+}
+h1::after {
+  /* content: "wow"; */
+  content: url(icon-special-offer.png);
+  /* content: url(kisspng-blood-halloween-drop-halloween-blood-dripping-effect-simulation-5a7f23f16d7dc8.8879849015182817134485.jpg); */
+  /* width: 20px; */
+  position: absolute;
+  top: -60px;
+  right: -80px;
+}
+/* h1::before {
+  /* content: "wow"; 
+  content: url(balenciaga-png-5.png);
+  /* width: 20px; 
+  position: absolute;
+  width: 20px;
+  top: -80px;
+  left: -80px;
+} */
+.img-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 12px;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+.img-p:hover {
+  color: rgb(212, 11, 28);
+  background-color: black;
+  width: 48%;
+  font-weight: bolder;
+  /* margin-left: 5px; */
+}
+.head:hover {
+  color: rgb(212, 11, 28);
+  background-color: rgb(0, 0, 0);
+  /* width: 45%; */
+  font-weight: bolder;
+  /* border-top: 10px solid black; */
+}
+/* .img-s::after {
+  content: "*Free Shipping";
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: -10px;
+  right: 10px;
+} */
+.old1 {
+  list-style: none;
+  /* display: inline-block; */
+}
+.old {
+  display: inline-block;
+  letter-spacing: 10px;
+  padding: 15px 6px;
+}
+.blockn {
+  display: inline;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  /* padding: 10px 10px; */
+}
+.old:hover {
+  transform: scale(1.5);
+}
+div p {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  padding-left: 6px;
+}
+.key {
+  padding-top: 10px;
+}
+.new {
+  /* display: block; */
+  font-size: 12px;
+  padding: 2px;
+  list-style: square;
+  display: list-item;
+  /* list-style: square; */
+
+  /* list-style: square; */
+}
+.new1 {
+  padding-top: 15px;
+  padding-left: 20px;
+  line-height: 15px;
+  list-style: circle;
+  position: relative;
+  list-style: square;
+  /* display: list-item; */
+  /* float: right; */
+}
+.new1::after {
+  content: url(R.png);
+  position: absolute;
+  top: -2px;
+  right: -10px;
+}
+footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  letter-spacing: 5px;
+}
+/*body:hover {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  content: url(Balenciaga-Logo-2013-640x360.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30px;
+  background-color: black; 
+}*/
